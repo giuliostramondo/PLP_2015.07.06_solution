@@ -1,4 +1,6 @@
 #lang racket
+;Giulio Stramondo
+;Date 06/07/2015
 
 (define (clos2)
   (let ((curr 0))

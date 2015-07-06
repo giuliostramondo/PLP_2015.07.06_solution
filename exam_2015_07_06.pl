@@ -1,3 +1,6 @@
+%Giulio Stramondo
+%Date 06/07/2015
+
 %the number of element in a list.
 my_count([],0).
 my_count([_|YS],N) :- my_count(YS,N1), N is N1+1.

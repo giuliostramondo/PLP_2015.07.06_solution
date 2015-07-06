@@ -1,3 +1,6 @@
+-- Giulio Stramondo
+-- Date 06/07/2015
+
 producer ag1 ag2 = prod' ag1 [] ag2 0 1 where
 	prod' ag1 st1 ag2 st2 i 
 	 | i >= 10 = (st2:st1)
